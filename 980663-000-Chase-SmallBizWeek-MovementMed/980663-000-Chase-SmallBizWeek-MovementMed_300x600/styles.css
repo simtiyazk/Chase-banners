@@ -1,0 +1,62 @@
+html, body{
+	background-color:#fff; 
+	padding:0;
+	margin:0;
+} 
+
+div {
+	position:absolute;
+	width: 300px;
+	height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+#banner{
+	background:#fff;
+	cursor: pointer;
+	overflow:hidden;
+    opacity: 0;
+}
+
+#keyline {
+	border: 1px solid #000000; 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#text1 {
+	background-image: url(images/text1.png);
+}
+
+#text1_1 {
+	background-image: url(images/text1_1.png);
+}
+
+#text2 {
+	background-image: url(images/text2.png);
+}
+
+#text2_1 {
+	background-image: url(images/text2_1.png);
+}
+
+#text3 {
+	background-image: url(images/text3.png);
+}
+
+#text3_1 {
+	background-image: url(images/text3_1.png);
+}
+
+#logo {
+	background-image: url(images/chase_logo.png);
+}
+
+#cta {
+	background-image: url(images/cta.png);
+}
